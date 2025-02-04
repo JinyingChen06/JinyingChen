@@ -21,25 +21,25 @@
                 <option value="Huawei"></option>
                 <option value="Google"></option>
             </datalist>
+            <br>
 
-            <label for="precio">Rango de precios:</label>
-            <input type="range" id="precio" name="precio" min="0" max="1000" step="50" value="500">
-            <output for="precio">500€</output>
+            <label>Selecciona un rango de precios:</label>
+            <select>
+                <option value="0-100">Menos de 100€</option>
+                <option value="100-300">100€ - 300€</option>
+                <option value="300-500">300€ - 500€</option>
+                <option value="500-700">500€ - 700€</option>
+                <option value="700-1000">700€ - 1000€</option>
+                <option value="1000+">Más de 1000€</option>
+            </select>
+            <br>
 
             <button type="submit">Buscar</button>
         </form>
     </section>
 
-    <footer>
-        <p>&copy; 2023 Buscador de Smartphones</p>
-    </footer>
-
-    <script>
-        const precio = document.getElementById('precio');
-        const output = document.querySelector('output');
-        precio.addEventListener('input', () => {
-            output.value = `${precio.value}€`;
-        });
-    </script>
+    <p>
+        Jinying Chen, DAM1. Ins Caparrella  
+    </p>
 </body>
 </html>
