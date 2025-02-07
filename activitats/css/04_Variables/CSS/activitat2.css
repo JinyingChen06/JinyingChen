@@ -1,0 +1,9 @@
+:root{
+	--lado-alto: 5rem;
+    --lado-ancho: 10rem;
+}
+.rectangle {
+    width: var(--lado-ancho);
+    height: var(--lado-alto);
+    background-color: #ff0000;
+}
