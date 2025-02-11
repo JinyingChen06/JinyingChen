@@ -1,2 +1,21 @@
-
-  
+body {
+    font-family: 'Calibri (cos)',Trebuchet MS, Arial, sans-serif;
+    background-color: #e2f2a2;
+}
+.imatge{
+    text-align: center;
+}
+.formulario{
+    color: #0051ff;
+    font-weight: bolder;
+}
+.nav{
+    text-align: center;
+}
+.final {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
