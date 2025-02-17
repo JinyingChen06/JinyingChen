@@ -1,0 +1,26 @@
+body {
+    font-family: 'Calibri (cos)',Trebuchet MS, Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: justify;
+}
+.amarillo{
+    color: #FFC010;
+}
+.anyos{
+    background-color: #2A6099;
+    color: #ffffff;
+}
+.morado{
+    color: blueviolet;
+}
+.verde{
+    background-color: green;
+    color: #ffffff;
+}
+.final {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}

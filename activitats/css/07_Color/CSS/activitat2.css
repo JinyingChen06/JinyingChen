@@ -1,0 +1,15 @@
+body {
+    font-family: 'Calibri (cos)',Trebuchet MS, Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: justify;
+}
+.final {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
+.ocult{
+    background-color: black;
+}
