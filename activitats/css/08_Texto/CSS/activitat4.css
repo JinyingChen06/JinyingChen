@@ -1,0 +1,45 @@
+body {
+    font-family: 'Calibri (cos)',Trebuchet MS, Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+.final {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
+@font-face {
+    font-family: FontH1;
+    src: url("./Fonts/mifuente.Font1/Mogra-Regular.ttf") format("woff2"),
+         url("./Fonts/mifuente.Font1/Mogra-Regular.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: FontH2;
+    src: url("./Fonts/mifuente.Font2/Quantico-Bold.ttf") format("woff2"),
+         url("./Fonts/mifuente.Font2/Quantico-BoldItalic.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+.Fuente-h1{
+    font-family: 'FontH1', Ariel;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+.Fuente-h2{
+    font-family: 'FontH2', Ariel;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+p{
+    font-style:oblique;
+    color: dimgray;
+    margin: 25px;
+    font-size: 0.45cm;
+}

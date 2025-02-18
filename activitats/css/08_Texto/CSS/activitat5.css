@@ -1,0 +1,27 @@
+body {
+    font-family: 'Font',Trebuchet MS, Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+.final {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
+@font-face {
+    font-family: Font;
+    src: url("./Fonts/font/Monomakh-Regular.ttf") format("woff2"),
+         url("./Fonts/font/Monomakh-Regular.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+.lletra{
+    text-transform: uppercase;
+}
+.subrallat{
+    font-style: italic;
+    background-color: yellow;
+}
