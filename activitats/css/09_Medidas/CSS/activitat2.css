@@ -1,0 +1,42 @@
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+.final {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
+
+p{
+    text-align: center;
+    color: black;
+    padding: 20px;
+    margin: 25px;
+}
+
+.verde{
+    background-color: green;
+    width: 90%;
+}
+
+.rojo{
+    background-color: red;
+    width: 80%;
+}
+.amarillo{
+    background-color: yellow;
+    width: 70%;
+}
+.azul{
+    background-color: blue;
+    width: 60%;
+}
+.gris{
+    background-color: gray;
+    width: 50%;
+}
