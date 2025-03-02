@@ -1,5 +1,5 @@
 body {
-    font-family: 'Calibri (cos)',Trebuchet MS, Arial, sans-serif;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
     background-color: #ffffff;
     text-align: justify;
     color: rgb(0, 0, 0);
@@ -10,6 +10,14 @@ body {
     clear: both;
     text-align: center;
     padding: 5px;
+}
+.tarjeta{
+    width: 50%;
+    border: black 5px solid;
+    
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
 }
 @font-face {
     font-family: FontH1;
@@ -24,22 +32,21 @@ body {
     font-style: normal;
     text-align: center;
 }
-@font-face {
-    font-family: FontH2;
-    src: url("./Fonts/mifuente.Font2/Quantico-Bold.ttf") format("woff2"),
-         url("./Fonts/mifuente.Font2/Quantico-BoldItalic.ttf") format("woff");
-    font-weight: normal;
-    font-style: normal;
+.info{
+    display: flex; 
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 45%;
+    margin: 20;
 }
-.Fuente-h2{
-    font-family: 'FontH2', Ariel;
-    font-weight: normal;
-    font-style: normal;
-    text-align: center;
-}
-p{
-    font-style:oblique;
-    color: dimgray;
-    margin: 25px;
-    font-size: 0.45cm;
+.user {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px; 
+    margin-left: 20px;
+    margin: 20px;
 }
