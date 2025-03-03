@@ -12,7 +12,7 @@ body {
     padding: 5px;
 }
 .tarjeta{
-    width: 40%;
+    width: 35%;
     border: black 5px solid;
     background-color: rgb(255, 255, 255);
     margin-left: auto;
@@ -35,13 +35,13 @@ body {
     text-align: center;
     padding: 10px;
 }
-.info{
-    display: flex; 
+.info{ 
     margin-bottom: 10px;
     background-color: rgb(255, 255, 255);
     width: 90%;
     margin: 15px;
     text-align: center;
+    font-size: large;
 }
 .user {
     aspect-ratio: 1 / 1;
@@ -62,7 +62,7 @@ nav ul li {
     margin: 10px;
 }
 nav ul li a {
-    color: rgb(162, 162, 162);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 0.55cm;
 }

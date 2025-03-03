@@ -1,0 +1,18 @@
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+.final {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
+.sub{
+    background-color: rgba(255, 255, 0, 0.553);
+    padding-right: 30px;
+    display: inline;
+}
