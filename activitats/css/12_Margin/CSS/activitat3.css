@@ -1,6 +1,6 @@
 body {
     font-family: 'Trebuchet MS', Arial, sans-serif;
-    background-color: #ffffff;
+    background-color: #ff0000;
     text-align: justify;
     color: rgb(0, 0, 0);
 }
@@ -25,10 +25,74 @@ body {
     align-items: center;
     text-align: center;
 }
+@font-face {
+    font-family: Font;
+    src: url("./Fonts/mifuente.Font1/Mogra-Regular.ttf") format("woff2"),
+         url("./Fonts/mifuente.Font1/Mogra-Regular.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+.Fuente{
+    font-family: 'Font', Ariel;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
 .text{
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     color: #ffffff;
-    margin-right: 30rem 30rem;
+}
+.linea{
+    display: flex;
+    height: 4px;
+    background-color: red;
+    width: 5%;
+    margin: 10px auto 0 auto;
+}
+.text2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+.btn{
+    display: flex;
+    margin: auto;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 50px;
+    background: rgb(255, 0, 0);
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.text3{
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    margin-block: 6rem 1rem;
+}
+.linea2{
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    width: 5%;
+    margin: 10px auto 0 auto;
+
+}
+.btn2{
+    display: flex;
+    margin: auto;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
 }
