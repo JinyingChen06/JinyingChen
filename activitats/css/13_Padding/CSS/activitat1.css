@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    background-color: #FBEECA;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+.final {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+}
+.estil{
+    background-image: url(../imagenes/fons.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-inline: 15rem 50rem;
+}
+@font-face {
+    font-family: Font;
+    src: url("./fonts/Smythe/Smythe-Regular.ttf") format("woff2"),
+         url("./fonts/Smythe/OFL.txt") format("woff");
+}
+.titol{
+    display: flex;
+    font-family: 'Font';
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    font-size: 5rem;
+}
+.text{
+    font-size: 1.7rem;
+    text-align: left;
+    color: #525252;
+    padding-bottom: 2rem;
+}
+.bot1{
+    margin: auto;
+    display: inline-block 12rem;
+    padding: 17px 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: solid #007C89;
+    background: #007C89;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.bot2{
+    display: flex;
+    margin: auto;
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 20px;
+    color: #007C89;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.fin{
+    background-color: #C5DBF2;
+    clear: both;
+    text-align: center;
+    padding-inline: 10rem;
+    padding: 10px;
+    font-size: 1.4rem;
+}
+.link{
+    color: #007C89;
+}
