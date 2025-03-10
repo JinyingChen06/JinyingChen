@@ -3,84 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./portafoli/CSS/index.css"/>
+    <link rel="stylesheet" type="text/css" href="./portafoli/CSS/estilo.css"/>
     <title>Activitats de HTML</title>
 </head>
 <body>
-    <div class="titul">
+
+    <header>
         <h1>Activitats de HTML</h1>
-    </div>
+    </header>
 
-    <div class="index">
-        <ul>  
-            <li><a href="index.html">INICI</a></li>
-            <li><a id="actiu" href="activitats_HTML.html">HTML</a></li>
-            <li><a href="activitats_CSS.html">CSS</a></li>
-            <li><a href="wireframe.html">WIREFRAME</a></li>  
-            <li><a href="#">FORMULARI</a></li>    
-        </ul>
-    </div>
+    <nav>
+        <a href="index.html">INICI</a>
+        <a id="actiu" href="activitats_HTML.html">HTML</a>
+        <a href="activitats_CSS.html">CSS</a>
+        <a href="wireframe.html">WIREFRAME</a>
+        <a href="formulari.html">FORMULARI</a>
+    </nav>
 
-    <div class="estil1">
-        <div class="estil2">
+    <div class="container">
+        <section id="projects" class="projects">
             <h2>Activitats HTML:</h2>
             <p>Links de totes les activitats de HTML:</p>
-            <h3>Activitats 02_Formato: </h3>
-            <li><a href="./activitats/html/02_Formato/activitat1.html">Activitats 1</a></li>
-            <li><a href="./activitats/html/02_Formato/activitat2.html">Activitats 2</a></li>
-            <li><a href="./activitats/html/02_Formato/activitat3.html">Activitats 3</a></li>
-            <li><a href="./activitats/html/02_Formato/activitat4.html">Activitats 4</a></li>
-            <li><a href="./activitats/html/02_Formato/activitat5.html">Activitats 5</a></li>
-            <li><a href="./activitats/html/02_Formato/activitat6.html">Activitats 6</a></li>
-            <li><a href="./activitats/html/02_Formato/activitat7.html">Activitats 7</a></li>
-            
-            <h3>Activitats 03_Hipervinculos: </h3>
-            <li><a href="./activitats/html/03_Hipervinculos/activitat1.html">Activitats 1</a></li>
-            <li><a href="./activitats/html/03_Hipervinculos/menu-del-dia.html">Activitats 2</a></li>
-
-            <h3>Activitats 04_Listas: </h3>
-            <li><a href="./activitats/html/04_Listas/activitat1.html">Activitats 1</a></li>
-            <li><a href="./activitats/html/04_Listas/activitat2.html">Activitats 2</a></li>
-            <li><a href="./activitats/html/04_Listas/activitat3.html">Activitats 3</a></li>
-            <li><a href="./activitats/html/04_Listas/activitat4.html">Activitats 4</a></li>
-            <li><a href="./activitats/html/04_Listas/activitat5.html">Activitats 5</a></li>
-
-            <h3>Activitats 05_Imagenes: </h3>
-            <li><a href="./activitats/html/05_Imagenes/activitat1.html">Activitats 1</a></li>
-            <li><a href="./activitats/html/05_Imagenes/activitat2.html">Activitats 2</a></li>
-            <li><a href="./activitats/html/05_Imagenes/activitat3.html">Activitats 3</a></li>
-            <li><a href="./activitats/html/05_Imagenes/activitat4.html">Activitats 4</a></li>
-
-            <h3>Activitats 06_Tablas: </h3>
-            <li><a href="./activitats/html/06_Tablas/activitat1.html">Activitats 1</a></li>
-            <li><a href="./activitats/html/06_Tablas/activitat2.html">Activitats 2</a></li>
-            <li><a href="./activitats/html/06_Tablas/activitat3.html">Activitats 3</a></li>
-
-            <h3>Activitats 07_Formularios: </h3>
-            <li><a href="./activitats/html/07_Formularios/activitat1.html">Activitats 1</a></li>
-            <li><a href="./activitats/html/07_Formularios/activitat2.html">Activitats 2</a></li>
-            <li><a href="./activitats/html/07_Formularios/activitat3.html">Activitats 3</a></li>
-            <li><a href="./activitats/html/07_Formularios/activitat4.html">Activitats 4</a></li>
-
-            <h3>Activitats 08_Multimedia: </h3>
-            <li><a href="./activitats/html/08_Multimedia/activitat1.html">Activitats 1</a></li>
-            <li><a href="./activitats/html/08_Multimedia/activitat2.html">Activitats 2</a></li>
-
-            <h3>Activitats 09_Contenido: </h3>
-            <li><a href="./activitats/html/09_Contenido/activitat1.html">Activitats 1</a></li>
-            <li><a href="./activitats/html/09_Contenido/activitat2.1.html">Activitats 2.1</a></li>
-            <li><a href="./activitats/html/09_Contenido/activitat2.2.html">Activitats 2.2</a></li>
-
-            <h3>Activitats 11_Interactivos: </h3>
-            <li><a href="./activitats/html/11_Interactivos/activitat1.html">Activitats 1</a></li>
-            <li><a href="./activitats/html/11_Interactivos/activitat2.html">Activitats 2</a></li>
-            <li><a href="./activitats/html/11_Interactivos/activitat3.html">Activitats 3</a></li>
-        </div>
+            <div class="project">
+                <h3>Activitats 02_Formato: </h3>
+                <div class="buttons-container">
+                    <button onclick="window.location.href='./activitats/html/02_Formato/activitat1.html'">Activitat 1</button>
+                    <button onclick="window.location.href='./activitats/html/02_Formato/activitat2.html'">Activitat 2</button>
+                    <button onclick="window.location.href='./activitats/html/02_Formato/activitat3.html'">Activitat 3</button>
+                    <button onclick="window.location.href='./activitats/html/02_Formato/activitat4.html'">Activitat 4</button>
+                    <button onclick="window.location.href='./activitats/html/02_Formato/activitat5.html'">Activitat 5</button>
+                    <button onclick="window.location.href='./activitats/html/02_Formato/activitat6.html'">Activitat 6</button>
+                    <button onclick="window.location.href='./activitats/html/02_Formato/activitat7.html'">Activitat 7</button>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Activitats 03_Hipervinculos: </h3>
+                <div class="buttons-container">
+                    <button onclick="window.location.href='./activitats/html/03_Hipervinculos/activitat1.html'">Activitat 1</button>
+                    <button onclick="window.location.href='./activitats/html/03_Hipervinculos/menu-del-dia.html'">Activitat 2</button>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Activitats 04_Listas: </h3>
+                <div class="buttons-container">
+                    <button onclick="window.location.href='./activitats/html/04_Listas/activitat1.html'">Activitat 1</button>
+                    <button onclick="window.location.href='./activitats/html/04_Listas/activitat2.html'">Activitat 2</button>
+                    <button onclick="window.location.href='./activitats/html/04_Listas/activitat3.html'">Activitat 3</button>
+                    <button onclick="window.location.href='./activitats/html/04_Listas/activitat4.html'">Activitat 4</button>
+                    <button onclick="window.location.href='./activitats/html/04_Listas/activitat5.html'">Activitat 5</button>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Activitats 05_Imagenes: </h3>
+                <div class="buttons-container">
+                    <button onclick="window.location.href='./activitats/html/05_Imagenes/activitat1.html'">Activitat 1</button>
+                    <button onclick="window.location.href='./activitats/html/05_Imagenes/activitat2.html'">Activitat 2</button>
+                    <button onclick="window.location.href='./activitats/html/05_Imagenes/activitat3.html'">Activitat 3</button>
+                    <button onclick="window.location.href='./activitats/html/05_Imagenes/activitat4.html'">Activitat 4</button>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Activitats 06_Tablas: </h3>
+                <div class="buttons-container">
+                    <button onclick="window.location.href='./activitats/html/06_Tablas/activitat1.html'">Activitat 1</button>
+                    <button onclick="window.location.href='./activitats/html/06_Tablas/activitat2.html'">Activitat 2</button>
+                    <button onclick="window.location.href='./activitats/html/06_Tablas/activitat3.html'">Activitat 3</button>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Activitats 07_Formularios: </h3>
+                <div class="buttons-container">
+                    <button onclick="window.location.href='./activitats/html/07_Formularios/activitat1.html'">Activitat 1</button>
+                    <button onclick="window.location.href='./activitats/html/07_Formularios/activitat2.html'">Activitat 2</button>
+                    <button onclick="window.location.href='./activitats/html/07_Formularios/activitat3.html'">Activitat 3</button>
+                    <button onclick="window.location.href='./activitats/html/07_Formularios/activitat4.html'">Activitat 4</button>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Activitats 08_Multimedia: </h3>
+                <div class="buttons-container">
+                    <button onclick="window.location.href='./activitats/html/08_Multimedia/activitat1.html'">Activitat 1</button>
+                    <button onclick="window.location.href='./activitats/html/08_Multimedia/activitat2.html'">Activitat 2</button>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Activitats 09_Contenido: </h3>
+                <div class="buttons-container">
+                    <button onclick="window.location.href='./activitats/html/09_Contenido/activitat1.html'">Activitat 1</button>
+                    <button onclick="window.location.href='./activitats/html/09_Contenido/activitat2.1.html'">Activitat 2</button>
+                    <button onclick="window.location.href='./activitats/html/09_Contenido/activitat2.2.html'">Activitat 3</button>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Activitats 11_Interactivos: </h3>
+                <div class="buttons-container">
+                    <button onclick="window.location.href='./activitats/html/11_Interactivos/activitat1.html'">Activitat 1</button>
+                    <button onclick="window.location.href='./activitats/html/11_Interactivos/activitat2.html'">Activitat 2</button>
+                    <button onclick="window.location.href='./activitats/html/11_Interactivos/activitat3.html'">Activitat 3</button>
+                </div>
+            </div>
+        </section>
+        
     </div>
-    <div class="final">
-        <pre>
-            Jinying Chen, DAM 1. Ins Caparrella
-        </pre>
-    </div>
+
+    <footer>
+        <p>Jinying Chen, DAM 1. Ins Caparrella</p>
+    </footer>
 </body>
 </html>

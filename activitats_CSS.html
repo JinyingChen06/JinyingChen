@@ -3,116 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./portafoli/CSS/index.css"/>
+    <link rel="stylesheet" type="text/css" href="./portafoli/CSS/estilo.css"/>
     <title>Activitats de HTML</title>
 </head>
 <body>
-    <div class="titul">
-        <h1>Activitats de HTML</h1>
-    </div>
+    <header>
+        <h1>Activitats de CSS</h1>
+    </header>
 
-    <div class="index">
-        <ul>  
-            <li><a href="index.html">INICI</a></li>
-            <li><a href="activitats_HTML.html">HTML</a></li>
-            <li><a id="actiu" href="activitats_CSS.html">CSS</a></li>
-            <li><a href="wireframe.html">WIREFRAME</a></li>  
-            <li><a href="#">FORMULARI</a></li>    
-        </ul>
-    </div>
-
-    <div class="estil1">
-        <div class="estil2">
+    <nav>
+        <a href="index.html">INICI</a>
+        <a href="activitats_HTML.html">HTML</a>
+        <a id="actiu" href="activitats_CSS.html">CSS</a>
+        <a href="wireframe.html">WIREFRAME</a>
+        <a href="formulari.html">FORMULARI</a>
+    </nav>
+    <div class="container">
+        <section id="projects" class="projects">
             <h2>Activitats CSS:</h2>
-            <p>Links de totes les activitats de CSS</p>
-            <h3>03_Selectores</h3>
-            <li><a href="./activitats/css/03_Selectores/activitat1.html">Activitats 1</a></li>
-            <li><a href="./activitats/css/03_Selectores/activitat2.html">Activitats 2</a></li>
-            <li><a href="./activitats/css/03_Selectores/activitat3.html">Activitats 3</a></li>
-            
-            <h3>04_Variables</h3>
-            <li><a href="./activitats/css/04_Variables/activitat1.html">Activitats 1</a></li>
-            <li><a href="./activitats/css/04_Variables/activitat2.html">Activitats 2</a></li>
-
-            <h3>06_BEM</h3>
-            <li><a href="./activitats/css/06_BEM/activitat1.html">Activitats 1</a></li>
-            <li><a href="./activitats/css/06_BEM/activitat2.html">Activitats 2</a></li>
-
-            <h3>07_Color</h3>
-            <li><a href="./activitats/css/07_Color/activitat1.html">Activitats 1</a></li>
-            <li><a href="./activitats/css/07_Color/activitat2.html">Activitats 2</a></li>
-            <li><a href="./activitats/css/07_Color/activitat3.html">Activitats 3</a></li>
-
-            <h3>08_Texto</h3>
-            <li><a href="./activitats/css/08_Texto/activitat1.html">Activitats 1</a></li>
-            <li><a href="./activitats/css/08_Texto/activitat2.html">Activitats 2</a></li>
-            <li><a href="./activitats/css/08_Texto/activitat3.html">Activitats 3</a></li>
-            <li><a href="./activitats/css/08_Texto/activitat4.html">Activitats 4</a></li>
-            <li><a href="./activitats/css/08_Texto/activitat5.html">Activitats 5</a></li>
-
-            <h3>09_Medidas</h3>
-            <li><a href="./activitats/css/09_Medidas/activitat1.html">Activitats 1</a></li>
-            <li><a href="./activitats/css/09_Medidas/activitat2.html">Activitats 2</a></li>
-            <li><a href="./activitats/css/09_Medidas/activitat3.html">Activitats 3</a></li>
-            <li><a href="./activitats/css/09_Medidas/activitat4.html">Activitats 4</a></li>
-
-            <h3>10_Imagenes</h3>
-            <li><a href="./activitats/css/10_Imagenes/activitat1.html">Activitats 1</a></li>
-            <li><a href="./activitats/css/10_Imagenes/activitat2.html">Activitats 2</a></li>
-
-            <h3>11_Display</h3>
-            <li><a href="./activitats/css/11_Display/activitat1.html">Activitats 1</a></li>
-            <li><a href="./activitats/css/11_Display/activitat2.html">Activitats 2</a></li>
-            <li><a href="./activitats/css/11_Display/activitat3.html">Activitats 3</a></li>
-
-            <h3>12_Margin</h3>
-            <li><a href="./activitats/css/12_Margin/activitat1.html">Activitats 1</a></li>
-            <li><a href="./activitats/css/12_Margin/activitat2.html">Activitats 2</a></li>
-            <li><a href="./activitats/css/12_Margin/activitat3.html">Activitats 3</a></li>
-
-            <h3>13_Padding</h3>
-            <li><a href="./activitats/css/13_Padding/activitat1.html">Activitats 1</a></li>
-
-            <!-- 
-            <h3>14_Border</h3>
-
-            <h3>15_Box_sizing</h3>
-
-            <h3>16_Listas</h3>
-
-            <h3>17_Overflow</h3>
-
-            <h3>18_Sombras</h3>
-
-            <h3>19_Filters</h3>
-
-            <h3>20_Transform</h3>
-
-            <h3>21_Transition</h3>
-
-
-            <h3>22_Animation</h3>
-
-            <h3>23_3D</h3>
-
-            <h3>24_SASS</h3>
-
-            <h3>25_Plugins</h3>
-
-            <h3>26_Herramientas</h3>
-
-            <h3>27_Avanzado</h3>
-
-            <h3>28_Final</h3>
-
-            -->
-        </div>
+            <p>Links de totes les activitats de CSS:</p>
+            <div class="project">
+                <h3>Activitats 03_Selectores: </h3>
+                <div class="buttons-container">
+                    <button onclick="window.location.href='./activitats/css/03_Selectores/activitat1.html'">Activitat 1</button>
+                    <button onclick="window.location.href='./activitats/css/03_Selectores/activitat2.html'">Activitat 2</button>
+                    <button onclick="window.location.href='./activitats/css/03_Selectores/activitat3.html'">Activitat 3</button>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Activitats 04_Variables: </h3>
+                <div class="buttons-container">
+                    <button onclick="window.location.href='./activitats/css/04_Variables/activitat1.html'">Activitat 1</button>
+                    <button onclick="window.location.href='./activitats/css/04_Variables/activitat2.html'">Activitat 2</button>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Activitats 06_BEM: </h3>
+                <div class="buttons-container">
+                    <button onclick="window.location.href='./activitats/css/06_BEM/activitat1.html'">Activitat 1</button>
+                    <button onclick="window.location.href='./activitats/css/06_BEM/activitat2.html'">Activitat 2</button>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Activitats 07_Color: </h3>
+                <div class="buttons-container">
+                    <button onclick="window.location.href='./activitats/css/07_Color/activitat1.html'">Activitat 1</button>
+                    <button onclick="window.location.href='./activitats/css/07_Color/activitat2.html'">Activitat 2</button>
+                    <button onclick="window.location.href='./activitats/css/07_Color/activitat3.html'">Activitat 3</button>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Activitats 08_Texto: </h3>
+                <div class="buttons-container">
+                    <button onclick="window.location.href='./activitats/css/08_Texto/activitat1.html'">Activitat 1</button>
+                    <button onclick="window.location.href='./activitats/css/08_Texto/activitat2.html'">Activitat 2</button>
+                    <button onclick="window.location.href='./activitats/css/08_Texto/activitat3.html'">Activitat 3</button>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Activitats 09_Medidas: </h3>
+                <div class="buttons-container">
+                    <button onclick="window.location.href='./activitats/css/09_Medidas/activitat1.html'">Activitat 1</button>
+                    <button onclick="window.location.href='./activitats/css/09_Medidas/activitat2.html'">Activitat 2</button>
+                    <button onclick="window.location.href='./activitats/css/09_Medidas/activitat3.html'">Activitat 3</button>
+                    <button onclick="window.location.href='./activitats/css/09_Medidas/activitat4.html'">Activitat 4</button>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Activitats 10_Imagenes: </h3>
+                <div class="buttons-container">
+                    <button onclick="window.location.href='./activitats/css/10_Imagenes/activitat1.html'">Activitat 1</button>
+                    <button onclick="window.location.href='./activitats/css/10_Imagenes/activitat2.html'">Activitat 2</button>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Activitats 11_Display: </h3>
+                <div class="buttons-container">
+                    <button onclick="window.location.href='./activitats/css/11_Display/activitat1.html'">Activitat 1</button>
+                    <button onclick="window.location.href='./activitats/css/11_Display/activitat2.html'">Activitat 2</button>
+                    <button onclick="window.location.href='./activitats/css/11_Display/activitat3.html'">Activitat 3</button>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Activitats 12_Margin: </h3>
+                <div class="buttons-container">
+                    <button onclick="window.location.href='./activitats/css/12_Margin/activitat1.html'">Activitat 1</button>
+                    <button onclick="window.location.href='./activitats/css/12_Margin/activitat2.html'">Activitat 2</button>
+                    <button onclick="window.location.href='./activitats/css/12_Margin/activitat3.html'">Activitat 3</button>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Activitats 13_Padding: </h3>
+                <div class="buttons-container">
+                    <button onclick="window.location.href='./activitats/css/13_Padding/activitat1.html'">Activitat 1</button>
+                </div>
+            </div>
+        </section>
+        
     </div>
 
-    <div class="final">
-        <pre>
-            Jinying Chen, DAM 1. Ins Caparrella
-        </pre>
-    </div>
+    <footer>
+        <p>Jinying Chen, DAM 1. Ins Caparrella</p>
+    </footer>
 </body>
 </html>
